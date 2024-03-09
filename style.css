@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 1500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 118, 118);
+}
+
+.inputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emojiInputButton{
+    width: 250px;
+    height: 25px;
+    margin: 0;
+    padding: 7px;
+    border: 3px solid rgb(68, 255, 0);
+    border-radius: 10px;
+}
+
+.emojiData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tr, td {
+    border-top: 1ps solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
